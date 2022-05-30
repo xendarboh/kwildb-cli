@@ -352,7 +352,8 @@ class KwilDBCLI {
           },
           {
             name: "secret",
-            type: "input",
+            type: "password",
+            mask: "*",
             message: "KwilDB secret",
             validate: (input) => {
               if (input == "") return "secret is required";
@@ -361,7 +362,8 @@ class KwilDBCLI {
           },
           {
             name: "privateKey",
-            type: "input",
+            type: "password",
+            mask: "*",
             message: "KwilDB private key",
             validate: (input) => {
               if (input == "") return "private key is required";
