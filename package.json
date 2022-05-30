@@ -1,0 +1,26 @@
+{
+  "name": "kwildb-cli",
+  "version": "0.0.0",
+  "description": "Kwil Database Terminal Client and Database Import Tool",
+  "main": "index.js",
+  "bin": {
+    "kwildb-cli": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "kwildb",
+    "sql"
+  ],
+  "license": "ISC",
+  "repository": "https://github.com/xendarboh/kwildb-cli",
+  "homepage": "https://github.com/xendarboh/kwildb-cli#readme",
+  "dependencies": {
+    "cli-progress": "^3.11.1",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.4",
+    "inquirer-command-prompt": "^0.1.0",
+    "inquirer-search-list": "^1.2.6",
+    "kwildb": "^1.2.28",
+    "n-readlines": "^1.0.1"
+  }
+}
