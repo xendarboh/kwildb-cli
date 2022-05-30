@@ -1,6 +1,6 @@
 {
   "name": "kwildb-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kwil Database Terminal Client and Database Import Tool",
   "main": "index.js",
   "bin": {
